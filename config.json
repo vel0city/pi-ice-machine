@@ -1,0 +1,9 @@
+{
+    "debug":false,
+    "ice_target_temp": 6.5,
+    "plate_target_temp": 25.0,
+    "water_valve_time": 2,
+    "recirculation_pump_time": 1,
+    "harvest_threshold_timeout": 4,
+    "harvest_threshold_temp": 52.5
+}

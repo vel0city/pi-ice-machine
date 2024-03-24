@@ -310,15 +310,3 @@ if __name__ == '__main__':
     except:
         ice_maker.logger.warning('SYSTEM POWER OFF, TURNING OFF ALL RELAYS...')
         ice_maker.power_off()
-#while True:
-#    ice_maker.ice_making()
-#    
-#    ice_maker.harvest()
-
-    #if probe in ice is < 35 degrees f 
-    #temp_check = ice_maker.sensor_check().ice_bucket_temperature_f
-    #self.logger.info('\t\tTemp of Probe in ice is: ' + temp_check)
-    #if temp_check < 35:
-    #    time.sleep(3)
-    #else:
-#    time.sleep(2 * 6)
